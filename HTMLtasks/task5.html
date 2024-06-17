@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 5</title>
+
+    <style>
+      table {
+        border: 1px solid black;
+      }
+
+      input{
+
+        width: fit-content;
+      }
+
+      td {
+        border: solid 1px black;
+      }
+      
+    </style>
+
+  </head>
+
+  <body>
+    <h1>Registration Form</h1>
+    <table>
+      <tr>
+        <th>First Name</th>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <th>Last Name</th>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <th>Password</th>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <th>Re-enter Password</th>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <th rowspan="2">Gender:</th>
+        <td><input type="radio" name="gender" value="male"/>Male</td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="gender" id="female">Female</td>
+      </tr>
+      <tr>
+        <th>Age:</th>
+        <td><input type="number" /></td>
+      </tr>
+      <tr>
+        <th>Phone Number</th>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <th>Address</th>
+        <td><textarea type="text" rows="5" cols="20"></textarea></td>
+      </tr>
+      <tr>
+        <th>State</th>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <th>Country</th>
+        <td><select type="text" >
+          <option>Choose your country</option>
+          <option>USA</option>
+          <option>India</option>
+        </select></td>
+      </tr>
+      <tr>
+        <th>Languages known</th>
+        <td><input type="checkbox" name="langs" value="English"/>English</input>
+        <td><input type="checkbox" name="langs" value="Kannada"/>Kannada</input>
+        <td><input type="checkbox" name="langs" value="Hindi"/>Hindi</input>
+        <td><input type="checkbox" name="langs" value="Telugu"/>Telugu</input>
+
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
